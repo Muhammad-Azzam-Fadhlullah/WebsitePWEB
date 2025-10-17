@@ -1,7 +1,7 @@
 <?php
 session_Start();
-$username_valid = "ardhy";
-$password_valid = "0205";
+$username_valid = "paguyuban";
+$password_valid = "fti";
 
 if(!isset($_POST['username']) || !isset($_POST['password'])){
     header("Location: index.html");
@@ -30,3 +30,4 @@ if($username === $username_valid && $password === $password_valid){
     echo "Username atau Password salah.";
 }
 
+//hayoyo
